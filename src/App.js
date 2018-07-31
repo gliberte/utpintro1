@@ -4,7 +4,7 @@ import ReactMapboxGl, { Layer, Source, GeoJSONLayer, ZoomControl } from 'react-m
 import MisRiosData from './data.geojson'
 import axios from 'axios'
 
-const urlBase = "http://gisnovomap.com/geoserver/wfs?service=wfs&version=2.0.0&request=GetFeature&srsName=EPSG:4326&typeNames=8_7_escuelas&outputFormat=application/json"
+const urlBase = "http://gisnovomap.com/geoserver/wfs?service=wfs&version=2.0.0&request=GetFeature&srsName=EPSG:4326&typeNames=manzanas&outputFormat=application/json"
 
 
 const Map = ReactMapboxGl({
